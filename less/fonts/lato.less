@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Lato";
+    src: url("@{burlfonts}LatoRegular/LatoRegular.eot");
+    src: url("@{burlfonts}LatoRegular/LatoRegular.eot?#iefix")format("embedded-opentype"),
+    url("@{burlfonts}LatoRegular/LatoRegular.woff") format("woff"),
+    url("@{burlfonts}LatoRegular/LatoRegular.ttf") format("truetype");
+    font-style: 400;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Lato";
+    src: url("@{burlfonts}LatoItalic/LatoItalic.eot");
+    src: url("@{burlfonts}LatoItalic/LatoItalic.eot?#iefix")format("embedded-opentype"),
+         url("@{burlfonts}LatoItalic/LatoItalic.woff") format("woff"),
+         url("@{burlfonts}LatoItalic/LatoItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('@{burlfonts}LatoSemibold/lato-semibold-webfont.eot');
+    src: url('@{burlfonts}LatoSemibold/lato-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('@{burlfonts}LatoSemibold/lato-semibold-webfont.woff') format('woff'),
+         url('@{burlfonts}LatoSemibold/lato-semibold-webfont.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: "Lato";
+    src: url("@{burlfonts}LatoBold/LatoBold.eot");
+    src: url("@{burlfonts}LatoBold/LatoBold.eot?#iefix")format("embedded-opentype"),
+         url("@{burlfonts}LatoBold/LatoBold.woff") format("woff"),
+         url("@{burlfonts}LatoBold/LatoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('@{burlfonts}LatoBlack/lato-black-webfont.eot');
+    src: url('@{burlfonts}LatoBlack/lato-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('@{burlfonts}LatoBlack/lato-black-webfont.woff') format('woff'),
+         url('@{burlfonts}LatoBlack/lato-black-webfont.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+
+}
+.lato() {
+	font-family: "Lato", sans-serif;
+}
+.lato(@size) {
+	font-size: @size;
+	font-family: "Lato", sans-serif;
+}

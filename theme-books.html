@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Kidsbookia theme books</title>
+    <meta name="description" content="Kidsbookia">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/jquery-1.10.1.min.js"></script>
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="js/fallback/selectivizr-min.js"></script>
+    <script src="js/fallback/jquery.backgroundSize.js"></script>
+    <![endif]-->
+    <!--[if lte IE 9]><script src="js/fallback/jquery.placeholder.min.js"></script><![endif]-->
+    <script src="js/plugins/jquery.blueimp-gallery.min.js"></script>
+    <script src="js/plugins/jquery.validate.min.js"></script>
+    <script src="js/plugins/jquery.scrollTo.min.js"></script>
+
+
+    <script src="js/common.js"></script>
+    
+</head>
+<body>
+<!-- gallery -->
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+</div>
+<!-- /gallery -->
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+<div class="nav-side-over js-body-overlay" style='display: none;'></div>
+<div class="nav-side-wrap js-nav-side">
+    <div class="nav-side-outer l-table">
+        <div class="l-table-cell">
+            <ul class="nav-side ">
+                <li><a href="#">Каталог тем</a></li>
+                <li><a href="#">Личный опыт</a></li>
+                <li><a href="#">Интервью</a></li>
+                <li><a href="#">События</a></li>
+                <li><a href="#">О проекте</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="wrapper">
+    <section class="header-under js-header-under"></section>
+    <section class="l-section-wrap header-wrap js-sticky-head">
+        <div class="container header">
+            <a href="#" class="logo js-no-sticky"><img src="image/logo.png" alt="" class="img-soft-response"></a>
+            <div class="fix-logo-wrap js-sticky">
+                <a href="#" class="fix-logo">&#xe60c;</a>
+            </div>
+            <div class="crop-wrap center-text">
+                <div class="header-delimeter js-no-sticky">
+                    <span class="js-rand-icon smaller">&#xe601;</span>
+                    <span class="js-rand-icon" style="display: none;">&#xe60e;</span>
+                    <span class="js-rand-icon" style="display: none;">&#xe600;</span>
+                    <span class="js-rand-icon" style="display: none;">&#xe605;</span>
+                    <span class="js-rand-icon" style="display: none;">&#xe60e;</span>
+                    <span class="js-rand-icon" style="display: none;">&#xe613;</span>
+                    <span class="js-rand-icon" style="display: none;">&#xe603;</span>
+                </div>
+            </div>
+            <nav class="nav-wrap">
+                <div class="nav-main-helper js-search-helper js-no-sticky"></div>
+                <div class="nav-burger js-nav-burger">&#xe607;</div>
+                <div class="header-search js-open-search">&#xe611;</div>
+                <ul class="nav-main">
+                    <li><a href="#">Каталог тем</a></li>
+                    <li><a href="#">Личный опыт</a></li>
+                    <li><a href="#">Интервью</a></li>
+                    <li><a href="#">События</a></li>
+                    <li><a href="#">О проекте</a></li>
+                </ul>
+                <form class="search-stripe js-search-stripe">
+                    <div class="search-stripe-content js-search-content">
+                        <input type="text" class="std-input search-stripe-input js-stripe-input" placeholder="Поисковый запрос">
+                        <div class="search-stripe-btns">
+                            <div class="search-stripe-close js-close-search">&#xe602;</div>
+                            <div class="search-stripe-find">найти</div>
+                            <div class="search-stripe-ico">&#xe611;</div>
+                        </div>
+                    </div>
+                </form>
+            </nav>
+        </div>
+        <!-- /header -->
+    </section>
+    <!-- /header-wrap -->
+
+    <section class="l-section-wrap theme-banner-outer">
+        <div class="top-banner-wrap in-theme">
+            <div class="top-banner-theme">
+                <img src="image/banner-img-02.jpg" alt="" class="img-response">
+            </div>
+            <div class="container top-banner-content in-theme with-nav">
+                <div class="top-banner-inner">
+                    <h1 class="theme-banner-head">Путеводители по Петербургу <br>для детей</h1>
+                    <div class="theme-banner-title">Что показать детям в Санкт-Петербурге</div>
+                    <div class="theme-banner-text">Занимательное петербурговедение в формате детских путеводителей. Мы отобрали четыре книги, которые можно почитать ребенку перед поездкой в Санкт-Петербург или взять с собой на прогулку по городу.</div>
+                </div>
+                <a href="#" class="meet-nav-link prev">
+                    <div class="meet-nav-icon">&#xe60f;</div>
+                    <div class="meet-nav-text">к предыдущей<br>тематике</div>
+                </a>
+                <a href="#" class="meet-nav-link next">
+                    <div class="meet-nav-icon">&#xe60d;</div>
+                    <div class="meet-nav-text">к следующей<br>тематике</div>
+                </a>
+                <!-- <a href="#" class="theme-nav-link prev">
+                    <div class="theme-nav-icon"></div>
+                    <div class="theme-nav-text">к предыдущей<br>тематике</div>
+                </a>
+                <a href="#" class="theme-nav-link next">
+                    <div class="theme-nav-icon"></div>
+                    <div class="theme-nav-text">к следующей<br>тематике</div>
+                </a> -->
+            </div>
+            <!-- /container  -->
+        </div>
+        <!-- /top banner wrap -->
+        <div class="top-banner-points-wrap">
+            <div class="top-banner-point color1">
+                <div class="top-banner-point-head">3-5</div>
+                <div class="top-banner-point-title">лет</div>
+            </div>
+            <div class="top-banner-point color2">
+                <div class="top-banner-point-head">5-6</div>
+                <div class="top-banner-point-title">лет</div>
+            </div>
+            <div class="top-banner-point color3">
+                <div class="top-banner-point-head">9-10</div>
+                <div class="top-banner-point-title">лет</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="std-page-wrap">
+        <div class="container theme-top-stripe clear-wrap">
+            <div class="theme-stripe-col left">
+                <div class="theme-stripe-person-img" style="background-image: url('image/person-photo.jpg');"></div>
+                <div class="theme-stripe-person-name">Светлана Савельевa</div>
+                <div class="theme-stripe-person-post">эксперт Кидсбукии</div>
+            </div>
+            <!-- /left -->
+            <div class="theme-stripe-col right">
+                <div class="theme-stripe-head">Почему эта подборка нравится Кидсбукии:</div>
+                <div class="theme-stripe-text">
+                    <p>Поучительная история для родителей о том, как важно понимать и принимать, что ребенок - это ДРУГОЙ человек. Навязывать ему свою картину мира, возлагать непонятные для него ожидания - ошибочно и непродуктивно. Нужно опираться на любовь и взаимное уважение. Кроме того, читая эту историю, можно обсудить с детьми их потребность о ком-то заботиться (она обычно появляется в просьбах завести домашнее животное или еще одного ребенка).</p>
+                    <p>И да, раз фрау Майер смогла вознестись над своими страхами и тревогами (она полетела!), то получится и у вас.</p>
+                </div>
+            </div>
+            <!-- /right -->
+        </div>
+        
+
+        <div class="container theme-books-list">
+            <div class="theme-books-list-head">Книги в подборке</div>
+            <a href="#" class="theme-book-item js-goto-anchor" data-goto="js-anchor-1">
+                <span class="theme-book-img" style="background-image: url('image/img80x80_1.jpg');"></span>
+                <span class="theme-book-name">Happy Kids</span>
+            </a>
+            <a href="#" class="theme-book-item js-goto-anchor" data-goto="js-anchor-2">
+                <span class="theme-book-img" style="background-image: url('image/img80x80_1.jpg');"></span>
+                <span class="theme-book-name">Санкт-Петербург</span>
+            </a>
+            <a href="#" class="theme-book-item js-goto-anchor" data-goto="js-anchor-3">
+                <span class="theme-book-img" style="background-image: url('image/img80x80_1.jpg');"></span>
+                <span class="theme-book-name">Книга 3</span>
+            </a>
+            <a href="#" class="theme-book-item js-goto-anchor" data-goto="js-anchor-4">
+                <span class="theme-book-img" style="background-image: url('image/img80x80_1.jpg');"></span>
+                <span class="theme-book-name">Книга 4</span>
+            </a>
+        </div>
+
+        <div class="container theme-main-section clear-wrap">
+            <div class="theme-main-col left">
+                <ul class="theme-nav">
+                    <li><a href="#">Книги</a></li>
+                    <li><a href="#">Приложения</a></li>
+                    <li><a href="#">Настольные игры</a></li>
+                    <li><a href="#">Сделай сам</a></li>
+                    <li><a href="#">Мультимедиа</a></li>
+                    <li><a href="#">Игрушки/товары</a></li>
+                    <li><a class="slave" href="#">Мероприятия</a></li>
+                    <li><a class="slave" href="#">Отзывы</a></li>
+                </ul>
+            </div>
+            <!-- /left -->
+            <div class="theme-main-col right js-anchor-1">
+                <div class="theme-item clear-wrap">
+                    <div class="theme-item-col left">
+                        <div class="theme-item-img">
+                            <img src="image/theme-img1.jpg" alt="">
+                        </div>
+                        <div class="crop-wrap">
+                            <div class="right-border-head">входит в подборки</div>
+                        </div>
+                        <div class="theme-group-list">
+                            <a href="#" class="theme-group-item">
+                                <div class="theme-group-img" style="background-image: url('image/img57x57_1.jpg');"></div>
+                                <div class="theme-group-name">Мамонты</div>
+                            </a>
+                            <a href="#" class="theme-group-item">
+                                <div class="theme-group-img" style="background-image: url('image/img57x57_1.jpg');"></div>
+                                <div class="theme-group-name">Мамонты</div>
+                            </a>
+                            <a href="#" class="theme-group-item">
+                                <div class="theme-group-img" style="background-image: url('image/img57x57_1.jpg');"></div>
+                                <div class="theme-group-name">Мамонты</div>
+                            </a>
+                        </div>
+                        <a href="#" class="theme-book-buy-btn btn">Купить книгу</a>
+                    </div>
+                    <!-- /left -->
+                    <div class="theme-item-col right">
+                        <div class="theme-item-head">Happy Kids</div>
+                        <div class="theme-item-title">Детские интерактивные книги, игры, мультфильмы, раскраски и пазлы</div>
+                        <div class="crop-wrap">
+                            <div class="right-border-head theme-descr-head">Описание приложения</div>
+                        </div>
+                        <div class="theme-item-text">
+                            <p> Игра-путеводитель "Городское ралли. Санкт-Петербург" - это небольшой картонный футляр, внутри которого 9 карт разных районов Петербурга. И с ними нужно гулять. По-настоящему. Выходить в город и смотреть по сторонам, плутать и уставать, замечать удивительные детали и открывать новые интересные уголки. Играть дома в "ралли" не получится - нужно быть в определенном месте, чтобы выполнить задание</p>
+                            <p>Отличный вариант для увлекательной прогулки по городу всей семьей. Каждая карта содержит вопросы, для решения которых понадобится только внимание, логика и хорошая погода. Ответы подскажет сам город - они зашифрованы в названии мест, надписях на фасадах или узорах барельефов.</p>
+                            <p>Свои ответы можно сверить с брошюрой, которая входит в комплект. В ней, кстати, есть еще много дополнительных фактов о городе.</p>
+                            <p>Карты "Городского ралли" авторские - их нарисовали три разные молодые художницы. И каждая внесла что-то свое, но вместе они сделали Петербург очень нарядным, ярким и немного мультяшным.</p>
+                        </div>
+                        <div class="crop-wrap">
+                            <div class="right-border-head theme-descr-head">Основные данные</div>
+                        </div>
+                        <div class="theme-item-details clear-wrap">
+                            <div class="theme-item-det-col col1">
+                                <div class="theme-item-det-head">Автор:</div>
+                                <a href="#">Хельга Патаки</a>
+                            </div>
+                            <div class="theme-item-det-col col2 blue-text">
+                                <div class="theme-item-det-head">Иллюстраторы:</div>
+                                <a href="#">Л. Макарова</a>, <a href="#">Мария Сергеева</a>, <a href="#">Катя Толстая</a>
+                            </div>
+                            <div class="theme-item-det-col col3">
+                                <div class="theme-item-det-head">Издательство:</div>
+                                <a href="#">Самокат</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /right -->
+                </div>
+                <!-- /theme-item -->
+
+                <div class="theme-item clear-wrap js-anchor-2">
+                    <div class="theme-item-col left">
+                        <div class="theme-item-img">
+                            <img src="image/theme-img1.jpg" alt="">
+                        </div>
+                        <div class="crop-wrap">
+                            <div class="right-border-head">входит в подборки</div>
+                        </div>
+                        <div class="theme-group-list">
+                            <a href="#"  class="theme-group-item">
+                                <div class="theme-group-img" style="background-image: url('image/img57x57_1.jpg');"></div>
+                                <div class="theme-group-name">Мамонты</div>
+                            </a>
+                            <a href="#"  class="theme-group-item">
+                                <div class="theme-group-img" style="background-image: url('image/img57x57_1.jpg');"></div>
+                                <div class="theme-group-name">Мамонты</div>
+                            </a>
+                            <a href="#"  class="theme-group-item">
+                                <div class="theme-group-img" style="background-image: url('image/img57x57_1.jpg');"></div>
+                                <div class="theme-group-name">Мамонты</div>
+                            </a>
+                        </div>
+                        <a href="#" class="theme-book-buy-btn btn">Купить книгу</a>
+                    </div>
+                    <!-- /left -->
+                    <div class="theme-item-col right">
+                        <div class="theme-item-head">Городское ралли</div>
+                        <div class="theme-item-title">Детские интерактивные книги, игры, мультфильмы, раскраски и пазлы</div>
+                        <div class="crop-wrap">
+                            <div class="right-border-head theme-descr-head">Описание приложения</div>
+                        </div>
+                        <div class="theme-item-text">
+                            <p> Игра-путеводитель "Городское ралли. Санкт-Петербург" - это небольшой картонный футляр, внутри которого 9 карт разных районов Петербурга. И с ними нужно гулять. По-настоящему. Выходить в город и смотреть по сторонам, плутать и уставать, замечать удивительные детали и открывать новые интересные уголки. Играть дома в "ралли" не получится - нужно быть в определенном месте, чтобы выполнить задание</p>
+                            <p>Отличный вариант для увлекательной прогулки по городу всей семьей. Каждая карта содержит вопросы, для решения которых понадобится только внимание, логика и хорошая погода. Ответы подскажет сам город - они зашифрованы в названии мест, надписях на фасадах или узорах барельефов.</p>
+                            <p>Свои ответы можно сверить с брошюрой, которая входит в комплект. В ней, кстати, есть еще много дополнительных фактов о городе.</p>
+                            <p>Карты "Городского ралли" авторские - их нарисовали три разные молодые художницы. И каждая внесла что-то свое, но вместе они сделали Петербург очень нарядным, ярким и немного мультяшным.</p>
+                        </div>
+                        <div class="crop-wrap">
+                            <div class="right-border-head theme-descr-head">Основные данные</div>
+                        </div>
+                        <div class="theme-item-details clear-wrap">
+                            <div class="theme-item-det-col col1">
+                                <div class="theme-item-det-head">Автор:</div>
+                                <a href="#">Хельга Патаки</a>
+                            </div>
+                            <div class="theme-item-det-col col2 blue-text">
+                                <div class="theme-item-det-head">Иллюстраторы:</div>
+                                <a href="#">Л. Макарова</a>, <a href="#">Мария Сергеева</a>, <a href="#">Катя Толстая</a>
+                            </div>
+                            <div class="theme-item-det-col col3">
+                                <div class="theme-item-det-head">Издательство:</div>
+                                <a href="#">Самокат</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /right -->
+                </div>
+                <!-- /theme-item -->
+                
+                <div class="theme-item clear-wrap js-anchor-3">
+                    <div class="theme-item-col left">
+                        <div class="theme-item-img">
+                            <img src="image/theme-img1.jpg" alt="">
+                        </div>
+                        <div class="crop-wrap">
+                            <div class="right-border-head">входит в подборки</div>
+                        </div>
+                        <div class="theme-group-list">
+                            <a href="#"  class="theme-group-item">
+                                <div class="theme-group-img" style="background-image: url('image/img57x57_1.jpg');"></div>
+                                <div class="theme-group-name">Мамонты</div>
+                            </a>
+                            <a href="#"  class="theme-group-item">
+                                <div class="theme-group-img" style="background-image: url('image/img57x57_1.jpg');"></div>
+                                <div class="theme-group-name">Мамонты</div>
+                            </a>
+                            <a href="#"  class="theme-group-item">
+                                <div class="theme-group-img" style="background-image: url('image/img57x57_1.jpg');"></div>
+                                <div class="theme-group-name">Мамонты</div>
+                            </a>
+                        </div>
+                        <a href="#" class="theme-book-buy-btn btn">Купить книгу</a>
+                    </div>
+                    <!-- /left -->
+                    <div class="theme-item-col right">
+                        <div class="theme-item-head">Книга 3</div>
+                        <div class="theme-item-title">Детские интерактивные книги, игры, мультфильмы, раскраски и пазлы</div>
+                        <div class="crop-wrap">
+                            <div class="right-border-head theme-descr-head">Описание приложения</div>
+                        </div>
+                        <div class="theme-item-text">
+                            <p> Игра-путеводитель "Городское ралли. Санкт-Петербург" - это небольшой картонный футляр, внутри которого 9 карт разных районов Петербурга. И с ними нужно гулять. По-настоящему. Выходить в город и смотреть по сторонам, плутать и уставать, замечать удивительные детали и открывать новые интересные уголки. Играть дома в "ралли" не получится - нужно быть в определенном месте, чтобы выполнить задание</p>
+                            <p>Отличный вариант для увлекательной прогулки по городу всей семьей. Каждая карта содержит вопросы, для решения которых понадобится только внимание, логика и хорошая погода. Ответы подскажет сам город - они зашифрованы в названии мест, надписях на фасадах или узорах барельефов.</p>
+                            <p>Свои ответы можно сверить с брошюрой, которая входит в комплект. В ней, кстати, есть еще много дополнительных фактов о городе.</p>
+                            <p>Карты "Городского ралли" авторские - их нарисовали три разные молодые художницы. И каждая внесла что-то свое, но вместе они сделали Петербург очень нарядным, ярким и немного мультяшным.</p>
+                        </div>
+                        <div class="crop-wrap">
+                            <div class="right-border-head theme-descr-head">Основные данные</div>
+                        </div>
+                        <div class="theme-item-details clear-wrap">
+                            <div class="theme-item-det-col col1">
+                                <div class="theme-item-det-head">Автор:</div>
+                                <a href="#">Хельга Патаки</a>
+                            </div>
+                            <div class="theme-item-det-col col2 blue-text">
+                                <div class="theme-item-det-head">Иллюстраторы:</div>
+                                <a href="#">Л. Макарова</a>, <a href="#">Мария Сергеева</a>, <a href="#">Катя Толстая</a>
+                            </div>
+                            <div class="theme-item-det-col col3">
+                                <div class="theme-item-det-head">Издательство:</div>
+                                <a href="#">Самокат</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /right -->
+                </div>
+                <!-- /theme-item -->
+
+                <div class="theme-item clear-wrap js-anchor-4">
+                    <div class="theme-item-col left">
+                        <div class="theme-item-img">
+                            <img src="image/theme-img1.jpg" alt="">
+                        </div>
+                        <div class="crop-wrap">
+                            <div class="right-border-head">входит в подборки</div>
+                        </div>
+                        <div class="theme-group-list">
+                            <a href="#"  class="theme-group-item">
+                                <div class="theme-group-img" style="background-image: url('image/img57x57_1.jpg');"></div>
+                                <div class="theme-group-name">Мамонты</div>
+                            </a>
+                            <a href="#"  class="theme-group-item">
+                                <div class="theme-group-img" style="background-image: url('image/img57x57_1.jpg');"></div>
+                                <div class="theme-group-name">Мамонты</div>
+                            </a>
+                            <a href="#"  class="theme-group-item">
+                                <div class="theme-group-img" style="background-image: url('image/img57x57_1.jpg');"></div>
+                                <div class="theme-group-name">Мамонты</div>
+                            </a>
+                        </div>
+                        <a href="#" class="theme-book-buy-btn btn">Купить книгу</a>
+                    </div>
+                    <!-- /left -->
+                    <div class="theme-item-col right">
+                        <div class="theme-item-head">Книга 4</div>
+                        <div class="theme-item-title">Детские интерактивные книги, игры, мультфильмы, раскраски и пазлы</div>
+                        <div class="crop-wrap">
+                            <div class="right-border-head theme-descr-head">Описание приложения</div>
+                        </div>
+                        <div class="theme-item-text">
+                            <p> Игра-путеводитель "Городское ралли. Санкт-Петербург" - это небольшой картонный футляр, внутри которого 9 карт разных районов Петербурга. И с ними нужно гулять. По-настоящему. Выходить в город и смотреть по сторонам, плутать и уставать, замечать удивительные детали и открывать новые интересные уголки. Играть дома в "ралли" не получится - нужно быть в определенном месте, чтобы выполнить задание</p>
+                            <p>Отличный вариант для увлекательной прогулки по городу всей семьей. Каждая карта содержит вопросы, для решения которых понадобится только внимание, логика и хорошая погода. Ответы подскажет сам город - они зашифрованы в названии мест, надписях на фасадах или узорах барельефов.</p>
+                            <p>Свои ответы можно сверить с брошюрой, которая входит в комплект. В ней, кстати, есть еще много дополнительных фактов о городе.</p>
+                            <p>Карты "Городского ралли" авторские - их нарисовали три разные молодые художницы. И каждая внесла что-то свое, но вместе они сделали Петербург очень нарядным, ярким и немного мультяшным.</p>
+                        </div>
+                        <div class="crop-wrap">
+                            <div class="right-border-head theme-descr-head">Основные данные</div>
+                        </div>
+                        <div class="theme-item-details clear-wrap">
+                            <div class="theme-item-det-col col1">
+                                <div class="theme-item-det-head">Автор:</div>
+                                <a href="#">Хельга Патаки</a>
+                            </div>
+                            <div class="theme-item-det-col col2 blue-text">
+                                <div class="theme-item-det-head">Иллюстраторы:</div>
+                                <a href="#">Л. Макарова</a>, <a href="#">Мария Сергеева</a>, <a href="#">Катя Толстая</a>
+                            </div>
+                            <div class="theme-item-det-col col3">
+                                <div class="theme-item-det-head">Издательство:</div>
+                                <a href="#">Самокат</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /right -->
+                </div>
+                <!-- /theme-item -->
+                <div class="center-text">
+                    <a href="#" class="theme-load-more">Загрузить еще</a>
+                </div>
+            </div>
+            <!-- /right -->
+
+        </div>
+    </section>
+    
+
+    
+
+    
+
+    <div class="l-prefooter"></div>
+</div>
+<!-- /wrapper -->
+<section class="l-section-wrap l-footer footer-wrap">
+    <div class="container footer">
+        <div class="row">
+            <div class="footer-col col1">
+                <a href="#" class="logo-bottom"><img src="image/logo-bottom.png" alt=""></a>
+                <div class="social-set in-footer">
+                    <a href="#" class="social-icon in-foot inst">
+                        <span class="this"></span>
+                        <span class="this-hover"></span>
+                    </a>
+                    <a href="#" class="social-icon in-foot vk">
+                        <span class="this"></span>
+                        <span class="this-hover"></span>
+                    </a>
+                    <a href="#" class="social-icon in-foot fb">
+                        <span class="this no-opacity"></span>
+                    </a>
+                    <a href="#" class="social-icon in-foot tw">
+                        <span class="this"></span>
+                        <span class="this-hover"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-col col2">
+                <ul class="nav-bottom">
+                    <li><a href="#">детские книги</a></li>
+                    <li><a href="#">настольные игры</a></li>
+                    <li><a href="#">мобильные приложения</a></li>
+                    <li><a href="#">мультфильмы</a></li>
+                    <li><a href="#">творческие задания</a></li>
+                </ul>
+            </div>
+            <div class="footer-col col3">
+                <ul class="nav-bottom">
+                    <li><a href="#">Личный опыт</a></li>
+                    <li><a href="#">интервью</a></li>
+                    <li><a href="#">обзоры книг</a></li>
+                    <li><a href="#">обзоры приложений</a></li>
+                    <li><a href="#">события</a></li>
+                </ul>
+            </div>
+            <div class="footer-col col4">
+                <div class="footer-text text1">«Кидзбукия» не публикует книжную рекламу, являясь некоммерческим проектом.</div>
+                <div class="footer-text text2">
+                    © 2013 - 2015, KidsBookia.ru <br>
+                    Все права защищены. Перепечатка и использование любых материалов только с разрешения редакции: <a href="mailto:editor@kidsbookia.ru">editor@kidsbookia.ru</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

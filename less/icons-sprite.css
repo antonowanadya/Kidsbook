@@ -1,0 +1,17 @@
+.facebook() { background-position: 0 0;} 
+.glasses() { background-position: 0 -52px;} 
+.heart() { background-position: 0 -78px;} 
+.hover_glasses() { background-position: 0 -123px;} 
+.hover_instagram() { background-position: 0 -149px;} 
+.hover_twitter() { background-position: 0 -199px;} 
+.hover_vk() { background-position: 0 -249px;} 
+.instagram() { background-position: 0 -299px;} 
+.sm_facebook() { background-position: 0 -351px; } 
+.sm_hover_instagram() { background-position: 0 -388px; } 
+.sm_hover_twitter() { background-position: 0 -425px;} 
+.sm_hover_vk() { background-position: 0 -475px; } 
+.sm_instagram() { background-position: 0 -512px; } 
+.sm_twitter() { background-position: 0 -549px; } 
+.sm_vk() { background-position: 0 -586px; } 
+.twitter() { background-position: 0 -623px;} 
+.vk() { background-position: 0 -675px;} 

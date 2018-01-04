@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'banderapro';
+    src: url('@{burlfonts}BanderaPro/banderapro-webfont.eot');
+    src: url('@{burlfonts}BanderaPro/banderapro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('@{burlfonts}BanderaPro/banderapro-webfont.woff') format('woff'),
+         url('@{burlfonts}BanderaPro/banderapro-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'banderapro';
+    src: url('@{burlfonts}BanderaProMedium/banderapromedium-webfont.eot');
+    src: url('@{burlfonts}BanderaProMedium/banderapromedium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('@{burlfonts}BanderaProMedium/banderapromedium-webfont.woff') format('woff'),
+         url('@{burlfonts}BanderaProMedium/banderapromedium-webfont.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'banderapro';
+    src: url('@{burlfonts}BanderaProBold/banderapro-bold-webfont.eot');
+    src: url('@{burlfonts}BanderaProBold/banderapro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('@{burlfonts}BanderaProBold/banderapro-bold-webfont.woff') format('woff'),
+         url('@{burlfonts}BanderaProBold/banderapro-bold-webfont.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+
+}
+.banderapro() {
+	font-family: "banderapro", serif;
+}
+.banderapro(@size) {
+	font-size: @size;
+	font-family: "banderapro", serif;
+}

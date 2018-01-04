@@ -1,0 +1,230 @@
+.container {
+	position: relative;
+}
+.blue-link() {
+	.alink(#5ac4c4, #00d2d2);
+}
+.l-section-wrap {
+	&.shaded {
+		background: url("@{burl}shadow-top.png") 0 0 repeat-x;
+	}
+}
+.std-page-wrap {
+	padding: 26px 0 55px;
+	&.shaded {
+	}
+}
+.breadcrumbs {
+	margin-bottom: 18px;
+	font-size: 13px;
+	color: #d2d2d2;
+	li {
+		display: inline-block;
+		&:after {
+			content: "/";
+			display: inline-block;
+			margin-left: 3px;
+		}
+		&:last-child {
+			&:after {
+				display: none;
+			}
+			color: #9c9c9c;
+			a {
+				.alink(#9c9c9c, darken(#9c9c9c,10%));
+			}
+		}
+	}
+	a {
+		display: inline-block;
+		.alink(#d2d2d2, darken(#d2d2d2, 10%));
+		.trans();
+		padding: 3px 2px;
+	}
+}
+
+.both-bordered-head {
+	display: inline-block;
+	position: relative;
+	margin-bottom: 32px;
+
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	&:before,
+	&:after {
+		.pseudo-icon();
+		height: 1px;
+		width: 1000px;
+		background-color: #e2e2e2;
+		top: 50%;
+		margin-top: -1px;
+	}
+	&:before {
+		left: -1016px;
+	}
+	&:after {
+		right: -1016px;
+	}
+}
+
+
+
+
+.is-hidden {
+	display: none;
+}
+// cover backgrounds fix for ie 8
+.cover-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	.backface-visibility(hidden);
+}
+@media screen and (max-width: 1280px) {
+	.cover-back {
+		width: 1280px;
+		left: 50%;
+		margin-left: -640px;
+	}
+}
+.row {
+	.clearfix();
+	position: relative;
+}
+.clear-wrap {
+	.clearfix();
+}
+// !when no-js common styles
+.no-js {
+	.no-js-hidden {
+		display: none !important;
+	}
+	.no-js-visible {
+		display: block !important;
+	}
+}
+// responsive images
+.img-response {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.img-soft-response {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+// hover icons with transition
+.this-wrap:hover {
+	.this {
+		.opacity(0);
+	}
+	.this.no-opacity {
+		.opacity(1);
+	}
+	.this-hover {
+		.opacity(1);
+	}
+}
+.no-opacity .this-wrap:hover {
+	.this {
+		display: none;
+	}
+	.this.no-opacity {
+		display: block;
+	}
+	.this-hover {
+		display: block;
+	}
+}
+.this {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	.trans();
+}
+.this-hover {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	.opacity(0);
+	.trans();
+}
+.this:hover .this-hover,
+.this.hover .this-hover {
+	.opacity(1);
+}
+.no-opacity .this-hover {display: none;}
+.no-opacity .this:hover .this-hover {display: block;}
+
+// transition
+.trans {
+	.trans();
+}
+
+
+.center-text {
+	text-align: center;
+}
+.left-text {
+	text-align: left;
+}
+.crop-wrap {
+	overflow: hidden;
+}
+.l-table {
+	display: table;
+	width: 100%;
+}
+.l-table-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+.btn {
+	position: relative;
+	display: inline-block;
+	height: 64px;
+	background-color: #5ac4c4;
+	&:hover {
+		background-color: #00d2d2;
+	}
+	.rounded(32px);
+
+	font-size: 20px;
+	font-weight: 900;
+	line-height: 68px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	.alink(#fff);
+	.trans();
+}
+
+
+
+
+// icons hover
+.ico-cur {
+	display: inline;
+}
+.ico-hover {
+	display: none;
+}
+.ico {
+	&:hover {
+		.ico-cur {
+			display: none;
+		}
+		.ico-hover {
+			display: inline;
+		}
+	}
+}

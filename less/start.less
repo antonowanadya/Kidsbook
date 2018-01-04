@@ -1,0 +1,40 @@
+// basic url adress
+@burl: "../image/";
+@burlfonts: "../fonts/";
+
+.lato() {
+	font-family: "Lato", sans-serif;
+}
+.lato(@size) {
+	font-size: @size;
+	font-family: "Lato", sans-serif;
+}
+.banderapro() {
+	font-family: "banderapro", serif;
+}
+.banderapro(@size) {
+	font-size: @size;
+	font-family: "banderapro", serif;
+}
+.andrij() {
+	font-family: "andrijscript", sans-serif;
+}
+.andrij(@size) {
+	font-size: @size;
+	font-family: "andrijscript", sans-serif;
+}
+.iconfont() {
+	font-family: 'icomoon-custom';
+}
+.iconfont(@size) {
+	font-family: 'icomoon-custom';
+	font-size: @size;
+}
+@import "modules/fonts-std.less";
+@import "modules/fonts.less";
+
+@import "bootstrap/mixins.less";
+@import "bootstrap/variables.less";
+@import "bootstrap/variables_redefinition.less";
+@import "modules/variables.less";
+@import "modules/mixins.less";

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'andrijscript';
+    src: url('@{burlfonts}AndrijScriptCyr/andrijscriptcyrillic-webfont.eot');
+    src: url('@{burlfonts}AndrijScriptCyr/andrijscriptcyrillic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('@{burlfonts}AndrijScriptCyr/andrijscriptcyrillic-webfont.woff') format('woff'),
+         url('@{burlfonts}AndrijScriptCyr/andrijscriptcyrillic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.andrij() {
+	font-family: "andrijscript", sans-serif;
+}
+.andrij(@size) {
+	font-size: @size;
+	font-family: "andrijscript", sans-serif;
+}

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Kidsbookia</title>
+    <meta name="description" content="Kidsbookia">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/jquery-1.10.1.min.js"></script>
+    <!-- // <script src="https://yastatic.net/jquery/mobile/1.4.0/jquery.mobile.min.js"></script> -->
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="js/fallback/selectivizr-min.js"></script>
+    <script src="js/fallback/jquery.backgroundSize.js"></script>
+    <![endif]-->
+    <!--[if lte IE 9]><script src="js/fallback/jquery.placeholder.min.js"></script><![endif]-->
+    <script src="js/plugins/jquery.validate.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+    <div class="test-text js-test-text1">123</div>
+    <div class="test-text text2 js-test-text2">123</div>
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+<div class="nav-side-over js-body-overlay" style='display: none;'></div>
+<div class="nav-side-wrap js-nav-side">
+    <ul class="nav-side ">
+        <li><a href="#">Каталог тем</a></li>
+        <li><a href="#">Личный опыт</a></li>
+        <li><a href="#">Интервью</a></li>
+        <li><a href="#">Обзоры книг</a></li>
+        <li><a href="#">Обзоры приложений</a></li>
+        <li><a href="#">События</a></li>
+        <li><a href="#">О проекте</a></li>
+    </ul>
+</div>
+
+<div class="wrapper">
+    <section class="header-under js-header-under"></section>
+    <section class="l-section-wrap header-wrap js-sticky-head">
+        <div class="container header">
+            <a href="#" class="logo js-no-sticky"><img src="image/logo.png" alt="" class="img-soft-response"></a>
+            <div class="fix-logo-wrap js-sticky">
+                <a href="#" class="fix-logo">&#xe60c;</a>
+            </div>
+            <div class="crop-wrap center-text">
+                <div class="header-delimeter js-no-sticky">
+                    <span class="js-rand-icon smaller">&#xe601;</span>
+                    <span class="js-rand-icon" style="display: none;">&#xe60e;</span>
+                    <span class="js-rand-icon" style="display: none;">&#xe600;</span>
+                    <span class="js-rand-icon" style="display: none;">&#xe605;</span>
+                    <span class="js-rand-icon" style="display: none;">&#xe60e;</span>
+                    <span class="js-rand-icon" style="display: none;">&#xe613;</span>
+                    <span class="js-rand-icon" style="display: none;">&#xe603;</span>
+                </div>
+            </div>
+            <nav class="nav-wrap">
+                <div class="nav-main-helper js-search-helper js-no-sticky"></div>
+                <div class="nav-burger js-nav-burger">&#xe607;</div>
+                <div class="header-search js-open-search">&#xe611;</div>
+                <ul class="nav-main">
+                    <li><a href="#">Каталог тем</a></li>
+                    <li><a href="#">Личный опыт</a></li>
+                    <li><a href="#">Интервью</a></li>
+                    <li><a href="#">Обзоры книг</a></li>
+                    <li><a href="#">Обзоры приложений</a></li>
+                    <li><a href="#">События</a></li>
+                    <li><a href="#">О проекте</a></li>
+                </ul>
+                <form class="search-stripe js-search-stripe">
+                    <div class="search-stripe-content js-search-content">
+                        <input type="text" class="std-input search-stripe-input js-stripe-input" placeholder="Поисковый запрос">
+                        <div class="search-stripe-btns">
+                            <div class="search-stripe-close js-close-search">&#xe602;</div>
+                            <div class="search-stripe-find">найти</div>
+                            <div class="search-stripe-ico">&#xe611;</div>
+                        </div>
+                    </div>
+                </form>
+            </nav>
+        </div>
+        <!-- /header -->
+    </section>
+    <!-- /header-wrap -->
+
+    <section class="l-section-wrap head-banner-wrap">
+        <div class="container">
+            <div class="l-table head-banner">
+                <div class="l-table-cell">«Кидзбукия» находит лучшее <br>для развития детей</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container like-section">
+        <h2 class="like-section-head">Выберите то, что действительно <br>нужно вашему ребенку</h2>
+        <div class="like-btn-wrap">
+            <div class="like-left">
+                <a href="#" class="like-btn">
+                    <span class="icon-heart">
+                        <span class="this"></span>
+                    </span>
+                    По его возрасту и интересам
+                </a>
+            </div>
+            <div class="like-btn-or">или</div>
+            <div class="like-right">
+                <a href="#" class="like-btn this-wrap">
+                    <span class="icon-glass">
+                        <span class="this"></span>
+                        <span class="this-hover"></span>
+                    </span>
+                    Основываясь на мнениях экспертов
+                </a>
+            </div>
+        </div>
+            <div class="center-text crop-wrap">
+                <div class="like-update-head">Обновления</div>
+            </div>
+        <div class="row">
+            <div class="col-md-4 like-update-col">
+                <div class="update-col-img" style="background-image: url('image/update-img.jpg')"></div>
+                <a href="#" class="update-col-head">«Кролики»<br> для детей 3-5 лет</a>
+                <div class="update-col-text">Создатель породы «мышастых» коней, большой любитель русской печи, мастер рисования людоедов петербургский художник <a href="#">Михаил Бычков</a> рассказал «Кидзбукии» о важности исторической достоверности в детской иллюстрации, о созданных им самим техниках рисования, а также о том, как в Россию были завезены авторские права на книги Астрид Линдгрен и какую важную роль в образе книги может играть такой вроде бы незначительный элемент, как колонцифра.</div>
+            </div>
+            <div class="col-md-4 like-update-col">
+                <div class="update-col-img" style="background-image: url('image/update-img.jpg')"></div>
+                <a href="#" class="update-col-head">«Кролики»<br> для детей 3-5 лет</a>
+                <div class="update-col-text">Создатель породы «мышастых» коней, большой любитель русской печи, мастер рисования людоедов петербургский художник <a href="#">Михаил Бычков</a> рассказал «Кидзбукии» о важности исторической достоверности в детской иллюстрации, о созданных им самим техниках рисования, а также о том, как в Россию были завезены авторские права на книги Астрид Линдгрен и какую важную роль в образе книги может играть такой вроде бы незначительный элемент, как колонцифра.</div>
+            </div>
+            <div class="col-md-4 like-update-col">
+                <div class="update-col-img" style="background-image: url('image/update-img.jpg')"></div>
+                <a href="#" class="update-col-head">«Кролики»<br> для детей 3-5 лет</a>
+                <div class="update-col-text">Создатель породы «мышастых» коней, большой любитель русской печи, мастер рисования людоедов петербургский художник <a href="#">Михаил Бычков</a> рассказал «Кидзбукии» о важности исторической достоверности в детской иллюстрации, о созданных им самим техниках рисования, а также о том, как в Россию были завезены авторские права на книги Астрид Линдгрен и какую важную роль в образе книги может играть такой вроде бы незначительный элемент, как колонцифра.</div>
+            </div>
+        </div>
+        <!-- /row -->
+    </section>
+
+    <section class="l-section-wrap social-section-wrap">
+        <div class="social-back-left"></div>
+        <div class="social-back-right"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 social-col left">
+                    <h2 class="social-header">Давайте <br>дружить и общаться!</h2>
+                    <div class="social-set in-social-section">
+                        <a href="#" class="social-icon inst">
+                            <span class="this"></span>
+                            <span class="this-hover"></span>
+                        </a>
+                        <a href="#" class="social-icon vk">
+                            <span class="this"></span>
+                            <span class="this-hover"></span>
+                        </a>
+                        <a href="#" class="social-icon fb">
+                            <span class="this no-opacity"></span>
+                        </a>
+                        <a href="#" class="social-icon tw">
+                            <span class="this"></span>
+                            <span class="this-hover"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 social-col right">
+                    <h2 class="social-header">Или подписывайтесь <br>на новости сервиса</h2>
+                    <form action="" class="index-feedback-form js-validate-rules-1">
+                        <input name="email" type="email" class="std-input" placeholder="Введите ваш email">
+                        <div class="feedback-input-set">
+                            <input name="city" type="text" class="std-input" placeholder="Ваш город">
+                            <input type="submit" class="std-sub feedback-sub" value="Подписаться">
+                        </div>
+                    </form>
+                    <div class="feedback-form-caption">Мы будем присылать вам свежие обзоры, <br>новости и интервью <b>не чаще раза в две недели</b></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container articles-section">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="articles-item">
+                    <div class="crop-wrap">
+                        <h3 class="right-border-head">Интервью</h3>
+                    </div>
+                    <div class="article-img-wrap">
+                        <img src="image/img-01.jpg" alt="" class="img-soft-response">
+                    </div>
+                    <div class="article-title">Михаил Бычков: </div>
+                    <a href="#" class="article-head">«Я очень люблю тексты, которые иллюстрирую, и стараюсь передать их дух, ритм, характер»</a>
+                    <div class="article-text">
+                        Создатель породы «мышастых» коней, большой любитель русской печи, мастер рисования людоедов петербургский художник Михаил Бычков рассказал «Кидзбукии» о важности исторической достоверности в детской иллюстрации, о созданных им самим техниках рисования, а также о том, как в Россию были завезены авторские права на книги Астрид Линдгрен и какую важную роль в образе книги может играть такой вроде бы незначительный элемент, как колонцифра.
+                    </div>
+                </div>
+                <!-- /article item -->
+
+                <div class="articles-item">
+                    <div class="crop-wrap">
+                        <h3 class="right-border-head">Обзоры книг</h3>
+                    </div>
+                    <div class="article-img-wrap">
+                        <img src="image/img-01.jpg" alt="" class="img-soft-response">
+                    </div>
+                    <div class="article-title">Норвежская литература для детей: </div>
+                    <a href="#" class="article-head">«Люди и разбойники из Кардамона» Эгнера Турбьерна</a>
+                    <div class="article-text">
+                        <p>
+                            Создатель породы «мышастых» коней, большой любитель русской печи, мастер рисования людоедов петербургский художник Михаил Бычков рассказал «Кидзбукии» о важности исторической достоверности в детской иллюстрации, о созданных им самим техниках рисования, а также о том, как в Россию были завезены авторские права на книги Астрид Линдгрен и какую важную роль в образе книги может играть такой вроде бы незначительный элемент, как колонцифра.
+                        </p>
+                        <p>
+                            Создатель породы «мышастых» коней, большой любитель русской печи, мастер 
+                        </p>
+                    </div>
+                </div>
+                <!-- /article item -->
+
+            </div>
+            <div class="col-md-4">
+                <div class="articles-item vertical">
+                    <div class="crop-wrap">
+                        <h3 class="right-border-head">Обзоры книг</h3>
+                    </div>
+                    <a href="#" class="article-head">Книги для детей и взрослых о любви к 14 февраля</a>
+                    <div class="article-img-wrap">
+                        <img src="image/img-02.jpg" alt="" class="img-soft-response">
+                    </div>
+                    <div class="article-text">
+                        <p>
+                            День святого Валентина — хороший повод поговорить с ребенком о любви, дружбе, одиночестве, а еще о том, как их выражать так, чтобы быть понятым. Мы нашли 7 книг, которые помогут вам начать беседу. Их герои разбираются в том, как признаваться в любви родителям и детям, выясняют, что лучше: быть одному или с друзьями, чувствуют ценность слов и учатся переживать расставание с друзьями.
+                        </p>
+                    </div>
+                </div>
+                <!-- /article item -->
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="l-section-wrap specproj-wrap">
+        <div class="container">
+            <div class="row">
+                <h1 class="specproj-head">Спецпроекты</h1>
+                <div class="col-sm-4">
+                    <a href="#" class="specproj-img-wrap js-ie-hover-fix">
+                        <img src="image/img-03.jpg" alt="" class="specproj-img">
+                        <div class="specproj-img-over"></div>
+                        <div class="specproj-img-over2"></div>
+                        <span class="specproj-img-text">
+                            <img src="image/text-img1.png" alt="">
+                        </span>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="specproj-img-wrap js-ie-hover-fix">
+                        <img src="image/img-04.jpg" alt="" class="specproj-img">
+                        <div class="specproj-img-over"></div>
+                        <div class="specproj-img-over2"></div>
+                        <span class="specproj-img-text">
+                            <img src="image/text-img2.png" alt="">
+                        </span>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="specproj-img-wrap js-ie-hover-fix">
+                        <img src="image/img-05.jpg" alt="" class="specproj-img">
+                        <div class="specproj-img-over"></div>
+                        <div class="specproj-img-over2"></div>
+                        <span class="specproj-img-text">
+                            <img src="image/text-img3.png" alt="">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container icons-section">
+        <div class="icons-section-text">
+            Создатель породы «мышастых» коней, большой любитель русской печи, мастер рисования людоедов петербургский художник <a href="#">Михаил Бычков</a> рассказал «Кидзбукии» о важности исторической достоверности в детской иллюстрации, о созданных им самим техниках рисования, а также о том, как в Россию были завезены авторские права на книги Астрид Линдгрен и какую важную роль в образе книги может играть такой вроде бы незначительный элемент, как колонцифра.
+        </div>
+        <div class="icons-outer">
+            <div class="icons-wrap">
+                <div class="icons-item main">
+                    <div class="icons-count">38</div>
+                    <div class="icons-caption">тем, которые можно <br>обсудить с ребенком</div>
+                    <div class="icons-ico">&#xe60e;</div>
+                </div>
+                <div class="icons-item item1">
+                    <div class="icons-ico">&#xe601;</div>
+                    <div class="icons-count">638</div>
+                    <div class="icons-caption">книг</div>
+                </div>
+                <div class="icons-item item2">
+                    <div class="icons-ico">&#xe600;</div>
+                    <div class="icons-count">200</div>
+                    <div class="icons-caption">приложений</div>
+                </div>
+                <div class="icons-item item3">
+                    <div class="icons-ico">&#xe605;</div>
+                    <div class="icons-count">120</div>
+                    <div class="icons-caption">настольных <br>игр</div>
+                </div>
+                <div class="icons-item item4">
+                    <div class="icons-ico">&#xe613;</div>
+                    <div class="icons-count">300</div>
+                    <div class="icons-caption">мультфильмов</div>
+                </div>
+                <div class="icons-item item5">
+                    <div class="icons-ico">&#xe603;</div>
+                    <div class="icons-count">150</div>
+                    <div class="icons-caption">творческих <br>заданий</div>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <div class="l-prefooter"></div>
+</div>
+<!-- /wrapper -->
+<section class="l-section-wrap l-footer footer-wrap">
+    <div class="container footer">
+        <div class="row">
+            <div class="footer-col col1">
+                <a href="#" class="logo-bottom"><img src="image/logo-bottom.png" alt=""></a>
+                <div class="social-set in-footer">
+                    <a href="#" class="social-icon in-foot inst">
+                        <span class="this"></span>
+                        <span class="this-hover"></span>
+                    </a>
+                    <a href="#" class="social-icon in-foot vk">
+                        <span class="this"></span>
+                        <span class="this-hover"></span>
+                    </a>
+                    <a href="#" class="social-icon in-foot fb">
+                        <span class="this no-opacity"></span>
+                    </a>
+                    <a href="#" class="social-icon in-foot tw">
+                        <span class="this"></span>
+                        <span class="this-hover"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-col col2">
+                <ul class="nav-bottom">
+                    <li><a href="#">детские книги</a></li>
+                    <li><a href="#">настольные игры</a></li>
+                    <li><a href="#">мобильные приложения</a></li>
+                    <li><a href="#">мультфильмы</a></li>
+                    <li><a href="#">творческие задания</a></li>
+                </ul>
+            </div>
+            <div class="footer-col col3">
+                <ul class="nav-bottom">
+                    <li><a href="#">Личный опыт</a></li>
+                    <li><a href="#">интервью</a></li>
+                    <li><a href="#">обзоры книг</a></li>
+                    <li><a href="#">обзоры приложений</a></li>
+                    <li><a href="#">события</a></li>
+                </ul>
+            </div>
+            <div class="footer-col col4">
+                <div class="footer-text text1">«Кидзбукия» не публикует книжную рекламу, <br> являясь некоммерческим проектом.</div>
+                <div class="footer-text text2">
+                    © 2013 - 2015, KidsBookia.ru <br>
+                    Все права защищены. Перепечатка и использование любых материалов только с разрешения редакции: <a href="mailto:editor@kidsbookia.ru">editor@kidsbookia.ru</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
